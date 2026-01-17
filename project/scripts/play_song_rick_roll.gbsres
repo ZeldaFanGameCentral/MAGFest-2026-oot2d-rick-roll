@@ -1,0 +1,300 @@
+{
+  "_resourceType": "script",
+  "id": "76f44e5d-75a7-4644-a287-0961d52dcbfb",
+  "name": "play_song_rick_roll",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "references": [
+          {
+            "type": "sound",
+            "id": "64549bc9-0b51-4753-89c0-78efa62e294c"
+          },
+          {
+            "type": "sound",
+            "id": "3fe98180-f81f-40d9-b32a-fec59d7cd480"
+          },
+          {
+            "type": "sound",
+            "id": "16d895ee-b56c-48df-86d1-4553754dcfa2"
+          },
+          {
+            "type": "sound",
+            "id": "0d4d10f6-11c0-4b37-932f-fd41980adde4"
+          },
+          {
+            "type": "sound",
+            "id": "5bffa093-5a64-48db-b563-1aad335d9498"
+          },
+          {
+            "type": "sound",
+            "id": "659e94f8-c1e9-477c-ad02-5e0037319f15"
+          },
+          {
+            "type": "sound",
+            "id": "f886d9ed-db06-411d-831e-1667cc19931d"
+          },
+          {
+            "type": "sound",
+            "id": "32eabccd-3934-4b84-ac14-04044cc8d8aa"
+          },
+          {
+            "type": "sound",
+            "id": "5a2897ed-fd00-4d74-b04f-55e66a38c43a"
+          },
+          {
+            "type": "sound",
+            "id": "2f92eef9-df38-419a-b7ed-de254a654ae9"
+          },
+          {
+            "type": "sound",
+            "id": "d4793de9-6de5-4be0-9dfe-abfe3f733a3a"
+          },
+          {
+            "type": "sound",
+            "id": "7b26e02a-c2d6-4940-8c5b-0b69a45e92f9"
+          },
+          {
+            "type": "sound",
+            "id": "6a98b23e-1f42-4982-a44e-e4ad45a45e14"
+          },
+          {
+            "type": "sound",
+            "id": "3a53efa0-6810-4870-92dd-555e57d83987"
+          },
+          {
+            "type": "sound",
+            "id": "86a53238-95e3-4698-9c67-18f1084181b1"
+          },
+          {
+            "type": "sound",
+            "id": "209889f8-5ca3-4c47-8432-d9c650a441df"
+          },
+          {
+            "type": "sound",
+            "id": "a5b61f97-8a76-4e63-a0b1-4806f9a79718"
+          },
+          {
+            "type": "sound",
+            "id": "a528d393-7e4a-4156-b584-cf097b19a899"
+          },
+          {
+            "type": "sound",
+            "id": "0a0e7d8d-06a9-4a95-97c7-e8b8a44dc631"
+          },
+          {
+            "type": "sound",
+            "id": "a0962db7-fbc5-4784-b87b-b1b047e3e814"
+          },
+          {
+            "type": "sound",
+            "id": "0ec1b47b-3652-49c7-942f-d891e932873d"
+          },
+          {
+            "type": "sound",
+            "id": "7d728629-bd40-4874-8656-24ed6aefa860"
+          },
+          {
+            "type": "sound",
+            "id": "08febd35-fd14-445c-b37b-9a2a1dd33e46"
+          },
+          {
+            "type": "sound",
+            "id": "dd879f44-6a7d-414c-b571-81f735c1719d"
+          },
+          {
+            "type": "sound",
+            "id": "3c804e4e-4f52-4d28-8c2a-3e743fa5a812"
+          },
+          {
+            "type": "sound",
+            "id": "ea32d75d-4c40-4f53-9a20-1bfa59b7daff"
+          },
+          {
+            "type": "sound",
+            "id": "ae2cd3d4-9cdf-416b-9fb5-160e5c420bd9"
+          },
+          {
+            "type": "sound",
+            "id": "5c797b7e-b28c-42d4-b7f4-9ae892ec0110"
+          },
+          {
+            "type": "sound",
+            "id": "905d9819-e0d4-4736-b8dd-e533972b5500"
+          },
+          {
+            "type": "sound",
+            "id": "1e1a9f1f-ec48-479e-89a3-d64c3f23b0c5"
+          },
+          {
+            "type": "sound",
+            "id": "ffd155bd-245d-4c0e-bbe7-3311dace3f78"
+          },
+          {
+            "type": "sound",
+            "id": "dd5f2532-0013-4039-9022-f57f8b617b11"
+          },
+          {
+            "type": "sound",
+            "id": "a8b9167c-f71f-4d79-bce2-ce0b1c2005fb"
+          },
+          {
+            "type": "sound",
+            "id": "b99cffa7-77d6-4d2a-941c-030b6a168d17"
+          },
+          {
+            "type": "sound",
+            "id": "40412530-58b5-47e7-b4c3-88c0859389c8"
+          },
+          {
+            "type": "sound",
+            "id": "ce3c1d39-d839-4fca-b979-23405975818c"
+          },
+          {
+            "type": "sound",
+            "id": "49feea9a-cfe3-4fb1-8860-48c9cdb5505e"
+          },
+          {
+            "type": "sound",
+            "id": "62d69bc2-4e90-4a91-a217-1462bbd6db4e"
+          },
+          {
+            "type": "sound",
+            "id": "eb2aaef9-1f8a-4cf9-94f6-6087572266a9"
+          },
+          {
+            "type": "sound",
+            "id": "80af03dd-da39-4b53-8f77-4c43c704c03e"
+          },
+          {
+            "type": "sound",
+            "id": "d4f68c0c-4b06-494f-ba94-9cac96def49f"
+          },
+          {
+            "type": "sound",
+            "id": "bcbb4aec-9269-46b6-8b40-ce30a8cf74de"
+          },
+          {
+            "type": "sound",
+            "id": "645fa413-a20d-4f8f-855f-4a4e8348b0ec"
+          },
+          {
+            "type": "sound",
+            "id": "8bc0f494-4066-41cd-8813-fede50c0e305"
+          },
+          {
+            "type": "sound",
+            "id": "672d4a9d-17c6-4ad5-9a51-f698dd9ee5cf"
+          },
+          {
+            "type": "sound",
+            "id": "16536c76-45c1-473d-8b57-b3c2196f51ae"
+          },
+          {
+            "type": "sound",
+            "id": "404a4a36-1434-4c80-a6d8-f990a35e6962"
+          },
+          {
+            "type": "sound",
+            "id": "ab40a3f6-c27b-43fc-9fd8-524c449c7f99"
+          },
+          {
+            "type": "sound",
+            "id": "dabce2f1-a01d-4f51-90ec-0c5d91cf5455"
+          },
+          {
+            "type": "sound",
+            "id": "986ff724-7541-41d9-8cdd-d6d803c02ba1"
+          },
+          {
+            "type": "sound",
+            "id": "f46de9a1-a701-4080-8db5-24553173e588"
+          },
+          {
+            "type": "sound",
+            "id": "1e7ca211-a5a2-4485-ae58-2317fabaafbd"
+          },
+          {
+            "type": "sound",
+            "id": "88f05cc0-a585-47af-a1e9-bf3de3e236f2"
+          },
+          {
+            "type": "sound",
+            "id": "39d54650-8025-41d9-95eb-dad98b0c456f"
+          },
+          {
+            "type": "sound",
+            "id": "86dd9c83-25b9-4aad-9ba3-8db3a4eeed14"
+          },
+          {
+            "type": "sound",
+            "id": "aee6ee63-32a8-4506-93c6-5d21793ba579"
+          },
+          {
+            "type": "sound",
+            "id": "992111df-3c69-4007-8eb5-43c491a4683c"
+          },
+          {
+            "type": "sound",
+            "id": "5f7884be-b893-47be-a3a4-b3d94c2c7344"
+          },
+          {
+            "type": "sound",
+            "id": "fcb405db-5839-4520-8605-29987f7c8c8b"
+          },
+          {
+            "type": "sound",
+            "id": "b82a9b9d-f74d-4cc9-b40c-439ee6df093d"
+          },
+          {
+            "type": "sound",
+            "id": "eba2d7fa-ee01-432f-8523-eff4eaf3be96"
+          },
+          {
+            "type": "sound",
+            "id": "e122da71-1490-4ea2-9232-9dafe2775fc5"
+          },
+          {
+            "type": "sound",
+            "id": "e14c9e2b-b3a7-4841-b3dc-18f6a479066a"
+          },
+          {
+            "type": "sound",
+            "id": "154451e6-3dc0-435e-a490-f06163b82920"
+          },
+          {
+            "type": "sound",
+            "id": "d79861d7-96e1-4ade-993e-ebfcb3fce466"
+          },
+          {
+            "type": "sound",
+            "id": "fa948890-686d-4e52-839d-c972e40ebf23"
+          },
+          {
+            "type": "sound",
+            "id": "66705f93-6485-402c-9b6c-1e801d895179"
+          },
+          {
+            "type": "sound",
+            "id": "6de51b84-8f94-4e4c-b851-0c4bfc236b41"
+          },
+          {
+            "type": "sound",
+            "id": "061a1101-9a76-4b94-8fec-0337e04011f3"
+          },
+          {
+            "type": "sound",
+            "id": "77b4b738-4363-459f-8d81-dc701e9fcf3b"
+          }
+        ],
+        "script": ".macro PLAY_WAIT bank, snd, mask\n        VM_SFX_PLAY bank, snd, mask, .SFX_PRIORITY_NORMAL\n        VM_SET_CONST 0, 174\n        VM_INVOKE b_wait_frames, _wait_frames, 0, 0\n.endm\n\nVM_MUSIC_STOP\nVM_MUSIC_MUTE           0x0F\n\nPLAY_WAIT ___bank_sound_never_gonna_give_you_, _sound_never_gonna_give_you_, ___mute_mask_sound_never_gonna_give_you_\nPLAY_WAIT ___bank_sound_never_gonna_give_you__0, _sound_never_gonna_give_you__0, ___mute_mask_sound_never_gonna_give_you__0\nPLAY_WAIT ___bank_sound_never_gonna_give_you__1, _sound_never_gonna_give_you__1, ___mute_mask_sound_never_gonna_give_you__1\nPLAY_WAIT ___bank_sound_never_gonna_give_you__2, _sound_never_gonna_give_you__2, ___mute_mask_sound_never_gonna_give_you__2\nPLAY_WAIT ___bank_sound_never_gonna_give_you__3, _sound_never_gonna_give_you__3, ___mute_mask_sound_never_gonna_give_you__3\nPLAY_WAIT ___bank_sound_never_gonna_give_you__4, _sound_never_gonna_give_you__4, ___mute_mask_sound_never_gonna_give_you__4\nPLAY_WAIT ___bank_sound_never_gonna_give_you__5, _sound_never_gonna_give_you__5, ___mute_mask_sound_never_gonna_give_you__5\nPLAY_WAIT ___bank_sound_never_gonna_give_you__6, _sound_never_gonna_give_you__6, ___mute_mask_sound_never_gonna_give_you__6\nPLAY_WAIT ___bank_sound_never_gonna_give_you__7, _sound_never_gonna_give_you__7, ___mute_mask_sound_never_gonna_give_you__7\nPLAY_WAIT ___bank_sound_never_gonna_give_you__8, _sound_never_gonna_give_you__8, ___mute_mask_sound_never_gonna_give_you__8\nPLAY_WAIT ___bank_sound_never_gonna_give_you__9, _sound_never_gonna_give_you__9, ___mute_mask_sound_never_gonna_give_you__9\nPLAY_WAIT ___bank_sound_never_gonna_give_you__10, _sound_never_gonna_give_you__10, ___mute_mask_sound_never_gonna_give_you__10\nPLAY_WAIT ___bank_sound_never_gonna_give_you__11, _sound_never_gonna_give_you__11, ___mute_mask_sound_never_gonna_give_you__11\nPLAY_WAIT ___bank_sound_never_gonna_give_you__12, _sound_never_gonna_give_you__12, ___mute_mask_sound_never_gonna_give_you__12\nPLAY_WAIT ___bank_sound_never_gonna_give_you__13, _sound_never_gonna_give_you__13, ___mute_mask_sound_never_gonna_give_you__13\nPLAY_WAIT ___bank_sound_never_gonna_give_you__14, _sound_never_gonna_give_you__14, ___mute_mask_sound_never_gonna_give_you__14\nPLAY_WAIT ___bank_sound_never_gonna_give_you__15, _sound_never_gonna_give_you__15, ___mute_mask_sound_never_gonna_give_you__15\nPLAY_WAIT ___bank_sound_never_gonna_give_you__16, _sound_never_gonna_give_you__16, ___mute_mask_sound_never_gonna_give_you__16\nPLAY_WAIT ___bank_sound_never_gonna_give_you__17, _sound_never_gonna_give_you__17, ___mute_mask_sound_never_gonna_give_you__17\nPLAY_WAIT ___bank_sound_never_gonna_give_you__18, _sound_never_gonna_give_you__18, ___mute_mask_sound_never_gonna_give_you__18\nPLAY_WAIT ___bank_sound_never_gonna_give_you__19, _sound_never_gonna_give_you__19, ___mute_mask_sound_never_gonna_give_you__19\nPLAY_WAIT ___bank_sound_never_gonna_give_you__20, _sound_never_gonna_give_you__20, ___mute_mask_sound_never_gonna_give_you__20\nPLAY_WAIT ___bank_sound_never_gonna_give_you__21, _sound_never_gonna_give_you__21, ___mute_mask_sound_never_gonna_give_you__21\nPLAY_WAIT ___bank_sound_never_gonna_give_you__22, _sound_never_gonna_give_you__22, ___mute_mask_sound_never_gonna_give_you__22\nPLAY_WAIT ___bank_sound_never_gonna_give_you__23, _sound_never_gonna_give_you__23, ___mute_mask_sound_never_gonna_give_you__23\nPLAY_WAIT ___bank_sound_never_gonna_give_you__24, _sound_never_gonna_give_you__24, ___mute_mask_sound_never_gonna_give_you__24\nPLAY_WAIT ___bank_sound_never_gonna_give_you__25, _sound_never_gonna_give_you__25, ___mute_mask_sound_never_gonna_give_you__25\nPLAY_WAIT ___bank_sound_never_gonna_give_you__26, _sound_never_gonna_give_you__26, ___mute_mask_sound_never_gonna_give_you__26\nPLAY_WAIT ___bank_sound_never_gonna_give_you__27, _sound_never_gonna_give_you__27, ___mute_mask_sound_never_gonna_give_you__27\nPLAY_WAIT ___bank_sound_never_gonna_give_you__28, _sound_never_gonna_give_you__28, ___mute_mask_sound_never_gonna_give_you__28\nPLAY_WAIT ___bank_sound_never_gonna_give_you__29, _sound_never_gonna_give_you__29, ___mute_mask_sound_never_gonna_give_you__29\nPLAY_WAIT ___bank_sound_never_gonna_give_you__30, _sound_never_gonna_give_you__30, ___mute_mask_sound_never_gonna_give_you__30\nPLAY_WAIT ___bank_sound_never_gonna_give_you__31, _sound_never_gonna_give_you__31, ___mute_mask_sound_never_gonna_give_you__31\nPLAY_WAIT ___bank_sound_never_gonna_give_you__32, _sound_never_gonna_give_you__32, ___mute_mask_sound_never_gonna_give_you__32\nPLAY_WAIT ___bank_sound_never_gonna_give_you__33, _sound_never_gonna_give_you__33, ___mute_mask_sound_never_gonna_give_you__33\nPLAY_WAIT ___bank_sound_never_gonna_give_you__34, _sound_never_gonna_give_you__34, ___mute_mask_sound_never_gonna_give_you__34\nPLAY_WAIT ___bank_sound_never_gonna_give_you__35, _sound_never_gonna_give_you__35, ___mute_mask_sound_never_gonna_give_you__35\nPLAY_WAIT ___bank_sound_never_gonna_give_you__36, _sound_never_gonna_give_you__36, ___mute_mask_sound_never_gonna_give_you__36\nPLAY_WAIT ___bank_sound_never_gonna_give_you__37, _sound_never_gonna_give_you__37, ___mute_mask_sound_never_gonna_give_you__37\nPLAY_WAIT ___bank_sound_never_gonna_give_you__38, _sound_never_gonna_give_you__38, ___mute_mask_sound_never_gonna_give_you__38\nPLAY_WAIT ___bank_sound_never_gonna_give_you__39, _sound_never_gonna_give_you__39, ___mute_mask_sound_never_gonna_give_you__39\nPLAY_WAIT ___bank_sound_never_gonna_give_you__40, _sound_never_gonna_give_you__40, ___mute_mask_sound_never_gonna_give_you__40\nPLAY_WAIT ___bank_sound_never_gonna_give_you__41, _sound_never_gonna_give_you__41, ___mute_mask_sound_never_gonna_give_you__41\nPLAY_WAIT ___bank_sound_never_gonna_give_you__42, _sound_never_gonna_give_you__42, ___mute_mask_sound_never_gonna_give_you__42\nPLAY_WAIT ___bank_sound_never_gonna_give_you__43, _sound_never_gonna_give_you__43, ___mute_mask_sound_never_gonna_give_you__43\nPLAY_WAIT ___bank_sound_never_gonna_give_you__44, _sound_never_gonna_give_you__44, ___mute_mask_sound_never_gonna_give_you__44\nPLAY_WAIT ___bank_sound_never_gonna_give_you__45, _sound_never_gonna_give_you__45, ___mute_mask_sound_never_gonna_give_you__45\nPLAY_WAIT ___bank_sound_never_gonna_give_you__46, _sound_never_gonna_give_you__46, ___mute_mask_sound_never_gonna_give_you__46\nPLAY_WAIT ___bank_sound_never_gonna_give_you__47, _sound_never_gonna_give_you__47, ___mute_mask_sound_never_gonna_give_you__47\nPLAY_WAIT ___bank_sound_never_gonna_give_you__48, _sound_never_gonna_give_you__48, ___mute_mask_sound_never_gonna_give_you__48\nPLAY_WAIT ___bank_sound_never_gonna_give_you__49, _sound_never_gonna_give_you__49, ___mute_mask_sound_never_gonna_give_you__49\nPLAY_WAIT ___bank_sound_never_gonna_give_you__50, _sound_never_gonna_give_you__50, ___mute_mask_sound_never_gonna_give_you__50\nPLAY_WAIT ___bank_sound_never_gonna_give_you__51, _sound_never_gonna_give_you__51, ___mute_mask_sound_never_gonna_give_you__51\nPLAY_WAIT ___bank_sound_never_gonna_give_you__52, _sound_never_gonna_give_you__52, ___mute_mask_sound_never_gonna_give_you__52\nPLAY_WAIT ___bank_sound_never_gonna_give_you__53, _sound_never_gonna_give_you__53, ___mute_mask_sound_never_gonna_give_you__53\nPLAY_WAIT ___bank_sound_never_gonna_give_you__54, _sound_never_gonna_give_you__54, ___mute_mask_sound_never_gonna_give_you__54\nPLAY_WAIT ___bank_sound_never_gonna_give_you__55, _sound_never_gonna_give_you__55, ___mute_mask_sound_never_gonna_give_you__55\nPLAY_WAIT ___bank_sound_never_gonna_give_you__56, _sound_never_gonna_give_you__56, ___mute_mask_sound_never_gonna_give_you__56\nPLAY_WAIT ___bank_sound_never_gonna_give_you__57, _sound_never_gonna_give_you__57, ___mute_mask_sound_never_gonna_give_you__57\nPLAY_WAIT ___bank_sound_never_gonna_give_you__58, _sound_never_gonna_give_you__58, ___mute_mask_sound_never_gonna_give_you__58\nPLAY_WAIT ___bank_sound_never_gonna_give_you__59, _sound_never_gonna_give_you__59, ___mute_mask_sound_never_gonna_give_you__59\nPLAY_WAIT ___bank_sound_never_gonna_give_you__60, _sound_never_gonna_give_you__60, ___mute_mask_sound_never_gonna_give_you__60\nPLAY_WAIT ___bank_sound_never_gonna_give_you__61, _sound_never_gonna_give_you__61, ___mute_mask_sound_never_gonna_give_you__61\nPLAY_WAIT ___bank_sound_never_gonna_give_you__62, _sound_never_gonna_give_you__62, ___mute_mask_sound_never_gonna_give_you__62\nPLAY_WAIT ___bank_sound_never_gonna_give_you__63, _sound_never_gonna_give_you__63, ___mute_mask_sound_never_gonna_give_you__63\nPLAY_WAIT ___bank_sound_never_gonna_give_you__64, _sound_never_gonna_give_you__64, ___mute_mask_sound_never_gonna_give_you__64\nPLAY_WAIT ___bank_sound_never_gonna_give_you__65, _sound_never_gonna_give_you__65, ___mute_mask_sound_never_gonna_give_you__65\nPLAY_WAIT ___bank_sound_never_gonna_give_you__66, _sound_never_gonna_give_you__66, ___mute_mask_sound_never_gonna_give_you__66\nPLAY_WAIT ___bank_sound_never_gonna_give_you__67, _sound_never_gonna_give_you__67, ___mute_mask_sound_never_gonna_give_you__67\nPLAY_WAIT ___bank_sound_never_gonna_give_you__68, _sound_never_gonna_give_you__68, ___mute_mask_sound_never_gonna_give_you__68"
+      },
+      "id": "bce91eaa-ad87-4d92-935c-756269716128"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5c9eae60-c470-484a-9869-1076f5e83648",
+  "name": "link",
+  "symbol": "bg_link",
+  "width": 20,
+  "height": 32,
+  "imageWidth": 160,
+  "imageHeight": 256,
+  "filename": "link.png",
+  "tileColors": "",
+  "autoColor": false
+}

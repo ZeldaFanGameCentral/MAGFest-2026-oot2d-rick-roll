@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "65f782a4-7fec-485e-b3f4-316ca8f8aa10",
+  "name": "deku-tree-test",
+  "symbol": "bg_deku_tree_test",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "deku-tree-test.png",
+  "tileColors": "02d5+012+0212+012+0225+012+0212+012+0211+012+0212+012+021b+",
+  "autoColor": true
+}

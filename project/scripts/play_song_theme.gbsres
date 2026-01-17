@@ -1,0 +1,124 @@
+{
+  "_resourceType": "script",
+  "id": "57ced180-278e-4bef-9a05-182b37dd9feb",
+  "name": "play_song_theme",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_0",
+  "script": [
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": ".macro PLAY_WAIT bank, snd, mask\n        VM_SFX_PLAY bank, snd, mask, .SFX_PRIORITY_NORMAL\n        VM_SET_CONST 0, 174\n        VM_INVOKE b_wait_frames, _wait_frames, 0, 0\n.endm\n\nVM_MUSIC_STOP\nVM_MUSIC_MUTE           0x0F\n\nPLAY_WAIT ___bank_sound_theme_001_wav, _sound_theme_001_wav, ___mute_mask_sound_theme_001_wav\nPLAY_WAIT ___bank_sound_theme_002_wav, _sound_theme_002_wav, ___mute_mask_sound_theme_002_wav\nPLAY_WAIT ___bank_sound_theme_003_wav, _sound_theme_003_wav, ___mute_mask_sound_theme_003_wav\nPLAY_WAIT ___bank_sound_theme_004_wav, _sound_theme_004_wav, ___mute_mask_sound_theme_004_wav\nPLAY_WAIT ___bank_sound_theme_005_wav, _sound_theme_005_wav, ___mute_mask_sound_theme_005_wav\nPLAY_WAIT ___bank_sound_theme_006_wav, _sound_theme_006_wav, ___mute_mask_sound_theme_006_wav\nPLAY_WAIT ___bank_sound_theme_007_wav, _sound_theme_007_wav, ___mute_mask_sound_theme_007_wav\nPLAY_WAIT ___bank_sound_theme_008_wav, _sound_theme_008_wav, ___mute_mask_sound_theme_008_wav\nPLAY_WAIT ___bank_sound_theme_009_wav, _sound_theme_009_wav, ___mute_mask_sound_theme_009_wav\nPLAY_WAIT ___bank_sound_theme_010_wav, _sound_theme_010_wav, ___mute_mask_sound_theme_010_wav\nPLAY_WAIT ___bank_sound_theme_011_wav, _sound_theme_011_wav, ___mute_mask_sound_theme_011_wav\nPLAY_WAIT ___bank_sound_theme_012_wav, _sound_theme_012_wav, ___mute_mask_sound_theme_012_wav\nPLAY_WAIT ___bank_sound_theme_013_wav, _sound_theme_013_wav, ___mute_mask_sound_theme_013_wav\nPLAY_WAIT ___bank_sound_theme_014_wav, _sound_theme_014_wav, ___mute_mask_sound_theme_014_wav\nPLAY_WAIT ___bank_sound_theme_015_wav, _sound_theme_015_wav, ___mute_mask_sound_theme_015_wav\nPLAY_WAIT ___bank_sound_theme_016_wav, _sound_theme_016_wav, ___mute_mask_sound_theme_016_wav\nPLAY_WAIT ___bank_sound_theme_017_wav, _sound_theme_017_wav, ___mute_mask_sound_theme_017_wav\nPLAY_WAIT ___bank_sound_theme_018_wav, _sound_theme_018_wav, ___mute_mask_sound_theme_018_wav\nPLAY_WAIT ___bank_sound_theme_019_wav, _sound_theme_019_wav, ___mute_mask_sound_theme_019_wav\nPLAY_WAIT ___bank_sound_theme_020_wav, _sound_theme_020_wav, ___mute_mask_sound_theme_020_wav\nPLAY_WAIT ___bank_sound_theme_021_wav, _sound_theme_021_wav, ___mute_mask_sound_theme_021_wav\nPLAY_WAIT ___bank_sound_theme_022_wav, _sound_theme_022_wav, ___mute_mask_sound_theme_022_wav\nPLAY_WAIT ___bank_sound_theme_023_wav, _sound_theme_023_wav, ___mute_mask_sound_theme_023_wav\nPLAY_WAIT ___bank_sound_theme_024_wav, _sound_theme_024_wav, ___mute_mask_sound_theme_024_wav\nPLAY_WAIT ___bank_sound_theme_025_wav, _sound_theme_025_wav, ___mute_mask_sound_theme_025_wav\nPLAY_WAIT ___bank_sound_theme_026_wav, _sound_theme_026_wav, ___mute_mask_sound_theme_026_wav",
+        "references": [
+          {
+            "type": "sound",
+            "id": "d2db9bac-37ae-415e-8c80-77488ed8eb29"
+          },
+          {
+            "type": "sound",
+            "id": "d4199c41-bb8a-4ac2-ace7-9b29882d8e71"
+          },
+          {
+            "type": "sound",
+            "id": "5b0c37cb-c934-44b9-bef7-1397268e1cca"
+          },
+          {
+            "type": "sound",
+            "id": "16ce1bda-5051-4be8-b317-9d001897ccd4"
+          },
+          {
+            "type": "sound",
+            "id": "43b2dfc1-7bd6-4175-884f-f76a8a561f1c"
+          },
+          {
+            "type": "sound",
+            "id": "08b2a140-66d9-4ac5-a68f-ae3e73fe5631"
+          },
+          {
+            "type": "sound",
+            "id": "05a3d499-2538-494b-9e3c-27bbe218e624"
+          },
+          {
+            "type": "sound",
+            "id": "36977fb1-bf3e-4886-bf86-0f1d7fc798a2"
+          },
+          {
+            "type": "sound",
+            "id": "482213e4-0a65-456e-baf1-1e9f466ba595"
+          },
+          {
+            "type": "sound",
+            "id": "763d4d35-9fe2-4f08-9f70-2e3a6fded25d"
+          },
+          {
+            "type": "sound",
+            "id": "f21a88f2-b55c-4c13-8099-e06efcc3a6da"
+          },
+          {
+            "type": "sound",
+            "id": "2a9dfb01-cfa9-42b3-94cc-fe1cb14daaf9"
+          },
+          {
+            "type": "sound",
+            "id": "f069a173-8557-47fc-8904-13f791705869"
+          },
+          {
+            "type": "sound",
+            "id": "86066e88-11a2-4ca9-a87a-9654739e1c34"
+          },
+          {
+            "type": "sound",
+            "id": "eff7bea5-016d-41fd-af64-1f730ec5d596"
+          },
+          {
+            "type": "sound",
+            "id": "408ae07e-3be1-44d2-b3e4-c8a8020047f0"
+          },
+          {
+            "type": "sound",
+            "id": "82323c9c-fa6f-45a4-8a07-e3548931a4ac"
+          },
+          {
+            "type": "sound",
+            "id": "20256f1c-e329-4929-95ae-75770276bc96"
+          },
+          {
+            "type": "sound",
+            "id": "119056ee-7bac-4024-815d-c714ec4e2f16"
+          },
+          {
+            "type": "sound",
+            "id": "b7ca8f49-feb5-4a81-85dd-362692350501"
+          },
+          {
+            "type": "sound",
+            "id": "99694f8b-a3c4-4bea-b86f-4d93f36293af"
+          },
+          {
+            "type": "sound",
+            "id": "017fdac5-897b-4a83-95fb-1570ebfd9873"
+          },
+          {
+            "type": "sound",
+            "id": "28cdc7aa-6e59-43d5-9c25-28c35678bb2e"
+          },
+          {
+            "type": "sound",
+            "id": "260fe112-39ed-470f-bf97-4f0021c22e7d"
+          },
+          {
+            "type": "sound",
+            "id": "34983445-58a8-4def-a897-dcdd53f9d8c6"
+          },
+          {
+            "type": "sound",
+            "id": "a823776d-bc52-4230-8d8f-12cfb462164b"
+          }
+        ]
+      },
+      "id": "7c44f684-2ca1-4637-b0ba-6dfd9018ae40"
+    }
+  ]
+}

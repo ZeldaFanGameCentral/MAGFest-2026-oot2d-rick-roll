@@ -1,0 +1,167 @@
+{
+  "_resourceType": "scene",
+  "id": "afe6c151-0898-476f-8347-358d6e002c2b",
+  "_index": 3,
+  "name": "Credits ",
+  "backgroundId": "ce544855-dfc2-4e99-a076-6269ba811970",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 400,
+  "y": 600,
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "c3a5dd7e-f073-4f6e-84d4-002ba60b1427",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "35091cc8-24f2-47e9-9374-d45766c22973"
+    },
+    {
+      "command": "EVENT_MUTE_CHANNEL",
+      "args": {
+        "channels": [
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "id": "ad0574b1-daa3-4011-b364-7540646e7543"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3bddff56-8970-49c6-afd2-936331ee3f0d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hi MAGFest 2026!",
+          "ZFGC has come back\nfrom Vash's\\nbutthole!",
+          "To give you a fun\\nlittle prank."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 3,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": 1,
+        "speedOut": 2,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 3.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "7774e120-091c-4b96-9d6e-5dc46238ab56"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "    - OOT2d -",
+          "Created with <3",
+          "Developed by:\ngm112, MG-Zero",
+          "Code:\n   gm112",
+          "Epicness:\n   MG-Zero"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 6,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": 1,
+        "speedOut": 2,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "6603007f-bca4-4684-a7e4-dda473406768"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "    - Assets -",
+          "Assets taken from\\nda interwebz.",
+          "   - Maku Tree -\nGuille Skye\nTailikku ",
+          "    - Link -\nMisterMike",
+          "   - Tilesets -\nKatsu",
+          "And for special\\nthanks...",
+          "SkyEmu",
+          "Aaron Spurling",
+          "Choco",
+          "....",
+          "The End!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": 1,
+        "speedOut": 2,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "cb84fdef-0559-4973-9997-f14488be1946"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d0e93b0c-afc3-430d-a5c3-97684c5d84d7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

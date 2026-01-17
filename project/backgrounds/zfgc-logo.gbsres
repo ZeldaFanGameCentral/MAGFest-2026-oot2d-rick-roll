@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "00b4d792-6032-459c-bd34-2bc3e33bc2f0",
+  "name": "zfgc-logo",
+  "symbol": "bg_zfgc_logo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "zfgc-logo.png",
+  "tileColors": "025d+012+0212+012+0217+012+0212+012+02c8+",
+  "autoColor": true
+}

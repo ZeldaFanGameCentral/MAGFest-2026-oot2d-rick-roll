@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fdcaf5c9-3b56-4106-895f-355f4490ec3f",
+  "name": "logo-grayscale",
+  "symbol": "bg_logo_grayscale",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "logo-grayscale.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}
